@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: black;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-word{
+    display: inline-block;
+    position: relative;
+}
+
+.caret{
+    display: inline-block;
+    height: 17px;
+    background-color: dodgerblue;
+    border-left: 3px solid black;
+    position: absolute;
+}
